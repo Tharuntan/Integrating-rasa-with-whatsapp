@@ -21,7 +21,7 @@
 
 ## API used
 
-* ["https://api.covid19india.org/data.json"]("https://api.covid19india.org/data.json")
+* API ["https://api.covid19india.org/data.json"]("https://api.covid19india.org/data.json")
 
 ## Run App
 
