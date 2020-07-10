@@ -42,11 +42,11 @@
 ## Twilio
 * Twilio provides a telephony infrastructure web service in the cloud, allowing web developers to integrate phone calls, text messages and IP voice communications
 * Signup for a Twilio account [Here](https://www.twilio.com/try-twilio)
-* [Create a Project].(https://www.twilio.com/login?g=%2Fconsole%2Fprojects%2Fcreate%3F&t=afcdb21a4add30114e5283d3e144b3368e6ced57af2b08365699f245ed1540f2)
+* [Create a Project](https://www.twilio.com/login?g=%2Fconsole%2Fprojects%2Fcreate%3F&t=afcdb21a4add30114e5283d3e144b3368e6ced57af2b08365699f245ed1540f2)
 
 ## Integrating Twilio with rasa
 * Enable Whatsapp sandbox under Programmable SMS.[Here](https://www.twilio.com/console/sms/whatsapp/sandbox).
-* Add Twilio channel to your RASA ```credentials.yml```.More info [here].(https://rasa.com/docs/rasa/user-guide/connectors/twilio/).
+* Add Twilio channel to your RASA ```credentials.yml```.More info [here](https://rasa.com/docs/rasa/user-guide/connectors/twilio/).
 * ```twilio:```
   ```account_sid: "<TWILIO ACCOUNT ID>"```
   ```auth_token: "<TWILIO AUTH TOKEN>"```
