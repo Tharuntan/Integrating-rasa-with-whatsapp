@@ -22,7 +22,7 @@
 
 ## API used
 
-["https://api.covid19india.org/data.json"].("https://api.covid19india.org/data.json")
+["https://api.covid19india.org/data.json"]("https://api.covid19india.org/data.json")
 
 ## Run App
 
@@ -41,21 +41,21 @@
 
 ## Twilio
 * Twilio provides a telephony infrastructure web service in the cloud, allowing web developers to integrate phone calls, text messages and IP voice communications
-* Signup for a Twilio account [Here].(https://www.twilio.com/try-twilio)
+* Signup for a Twilio account [Here](https://www.twilio.com/try-twilio)
 * [Create a Project].(https://www.twilio.com/login?g=%2Fconsole%2Fprojects%2Fcreate%3F&t=afcdb21a4add30114e5283d3e144b3368e6ced57af2b08365699f245ed1540f2)
 
 ## Integrating Twilio with rasa
-* Enable Whatsapp sandbox under Programmable SMS.[Here].(https://www.twilio.com/console/sms/whatsapp/sandbox).
+* Enable Whatsapp sandbox under Programmable SMS.[Here](https://www.twilio.com/console/sms/whatsapp/sandbox).
 * Add Twilio channel to your RASA ```credentials.yml```.More info [here].(https://rasa.com/docs/rasa/user-guide/connectors/twilio/).
 * ```twilio:```
   ```account_sid: "<TWILIO ACCOUNT ID>"```
   ```auth_token: "<TWILIO AUTH TOKEN>"```
   ```twilio_number: "whatsapp:<TWILIO NUMBER>"```.
-*  Launch your rasa instance. You can use ngrok to get a public https URL for your bot instance. More info [Here].(https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/#testing-channels-on-your-local-machine-with-ngrok).
+*  Launch your rasa instance. You can use ngrok to get a public https URL for your bot instance. More info [Here](https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/#testing-channels-on-your-local-machine-with-ngrok).
    ```ngrok http 5005; rasa run```.
-* Add your Rasa Twilio Webhook to [Sandbox configuration] .(https://www.twilio.com/console/sms/whatsapp/sandbox) .
+* Add your Rasa Twilio Webhook to [Sandbox configuration](https://www.twilio.com/console/sms/whatsapp/sandbox) .
 * eg: ```https://<your id>.ngrok.io/webhooks/facebook/webhook```
-* Finally follow the instruction to join the WhatsApp sandbox from your mobile number [Here].(https://www.twilio.com/console/sms/whatsapp/learn).
+* Finally follow the instruction to join the WhatsApp sandbox from your mobile number [Here](https://www.twilio.com/console/sms/whatsapp/learn).
 * Now you have your RASA bot integrated with Whatsapp.
 
   
