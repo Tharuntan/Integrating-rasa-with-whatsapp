@@ -5,7 +5,6 @@
 ## Installation 
 
 - **How to install Rasa**
-
   [Installation](https://rasa.com/docs/rasa/user-guide/installation/)
   
 ## Start App
@@ -22,7 +21,7 @@
 
 ## API used
 
-["https://api.covid19india.org/data.json"]("https://api.covid19india.org/data.json")
+* ["https://api.covid19india.org/data.json"]("https://api.covid19india.org/data.json")
 
 ## Run App
 
@@ -34,8 +33,7 @@
 ## Rasa X
 
 -**How to install Rasax**
-
-[Installation](https://rasa.com/docs/rasa-x/installation-and-setup/installation-guide/).
+ [Installation](https://rasa.com/docs/rasa-x/installation-and-setup/installation-guide/).
 
 * Install Rasax and run ```rasax```to  deploy your assistant on local host.
 
@@ -54,7 +52,7 @@
 *  Launch your rasa instance. You can use ngrok to get a public https URL for your bot instance. More info [Here](https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/#testing-channels-on-your-local-machine-with-ngrok).
    ```ngrok http 5005; rasa run```.
 * Add your Rasa Twilio Webhook to [Sandbox configuration](https://www.twilio.com/console/sms/whatsapp/sandbox) .
-* eg: ```https://<your id>.ngrok.io/webhooks/facebook/webhook```
+* ```https://<your id>.ngrok.io/webhooks/facebook/webhook```
 * Finally follow the instruction to join the WhatsApp sandbox from your mobile number [Here](https://www.twilio.com/console/sms/whatsapp/learn).
 * Now you have your RASA bot integrated with Whatsapp.
 
