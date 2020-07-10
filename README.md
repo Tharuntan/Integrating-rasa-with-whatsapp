@@ -21,7 +21,7 @@
 
 ## API used
 
-* API ["https://api.covid19india.org/data.json"]("https://api.covid19india.org/data.json")
+* API.["https://api.covid19india.org/data.json"]("https://api.covid19india.org/data.json")
 
 ## Run App
 
@@ -32,7 +32,7 @@
 
 ## Rasa X
 
--**How to install Rasax**
+- **How to install Rasax**
  [Installation](https://rasa.com/docs/rasa-x/installation-and-setup/installation-guide/).
 
 * Install Rasax and run ```rasax```to  deploy your assistant on local host.
