@@ -1,3 +1,6 @@
+# Preview
+ <img width="1255" alt="Screenshot 2020-07-11 at 19 46 53" src="https://user-images.githubusercontent.com/51873236/87226290-6d156300-c3b0-11ea-9f2d-78961bffc3b1.png">
+
 # Rasa
 
 * RASA is an opensource framework for building AI-powered chatbots. You can use RASA to create awesome bots for various channels such as Facebook, Telegram, Slack, etc.Here i have created a Automated chatBot for covid-19 cases using whatsappApi ,Rasa and Twilio.
