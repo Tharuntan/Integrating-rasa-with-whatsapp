@@ -1,5 +1,6 @@
 # Preview
  <img width="1252" alt="Screenshot 2020-07-11 at 21 55 07" src="https://user-images.githubusercontent.com/51873236/87228818-53c8e280-c3c1-11ea-9e44-751ba0752c40.png">
+ 
 # Rasa
 
 * RASA is an opensource framework for building AI-powered chatbots. You can use RASA to create awesome bots for various channels such as Facebook, Telegram, Slack, etc.Here i have created a Automated chatBot for covid-19 cases using whatsappApi ,Rasa and Twilio.
@@ -55,6 +56,7 @@
    ```ngrok http 5005; rasa run```.
 * Add your Rasa Twilio Webhook to [Sandbox configuration](https://www.twilio.com/console/sms/whatsapp/sandbox) .
 * ```https://<your id>.ngrok.io/webhooks/facebook/webhook```
+* And also add webhook in the message callback [Here](https://www.twilio.com/console/phone-numbers/PNfab2e6125f58410c3e9ea6e4915f2c75)
 * Finally follow the instruction to join the WhatsApp sandbox from your mobile number [Here](https://www.twilio.com/console/sms/whatsapp/learn).
 * Now you have your RASA bot integrated with Whatsapp.
 
